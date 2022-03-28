@@ -1,0 +1,263 @@
+body{
+    margin: 0%;
+    background-image: url('https://assets.pokemon.com//assets/cms2-es-es/img/misc/virtual-backgrounds/sword-shield/pokemon-in-the-wild.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.pokedex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 20px;
+    width: auto;
+    height: 100vh;
+}
+.pIzq{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 90%;
+    background: rgb(216, 49, 49);
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.icon1{
+    display: inline-block;
+    width: auto;
+    height: 15%;
+    margin:5px;
+    border-radius: 300px;
+}
+.circulo{
+    float: left;
+    width: 25px;
+    height: 25px;
+    background: rgb(248, 234, 31);
+    border-radius: 100%;
+    margin:2px;
+    margin: 15px 4px;
+}
+.azul{
+    background: rgb(27, 189, 230);
+    border: 8px solid #ffff;
+    width: 60px;
+    height: 60px;
+    margin-left: 25px;
+}
+.rojo{
+    background: red;
+}
+.contImg{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 80%;
+    height: 50%;
+    background: #ffff;
+    margin: 10px 20px;
+    border-radius: 20px;
+}
+.contNom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 80%;
+    height: 75%;
+    background: rgb(245, 248, 231);
+    border-radius: 10px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 65%;
+}
+#pokeImg{
+    padding: 10px;
+    width: 100%;
+}
+.name{
+    text-align: center;
+    align-self: center;
+    width: 50%;
+    height: 50px;
+    margin: 0%;
+    padding: 0%;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.icon2{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 0px;
+}
+.botones{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 0px;
+}
+button{
+    display: inline-block;
+    color: #ffff;
+    background: black;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.luz{
+    width: 20%;
+    height: 30%;
+    background: rgb(228, 90, 49);
+    border-radius: 10px;
+    margin:2px;
+}
+.luz1{
+    width: 20%;
+    height: 30%;
+    background: rgb(17, 235, 188);
+    border-radius: 10px;
+    margin:2px;
+}
+.cruz{
+    display:inline-block;
+    width: 80px;
+    height: 80px;
+}
+.cruz1{
+    width: 100%;
+    height: 100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30%;
+    background: #000;
+}
+.cuadro{
+    background-color: rgb(216, 49, 49);
+}
+input{
+    background-color: rgba(21, 255, 33, 0.877);
+    width: 220px;
+    height: 80px;
+    border: none;
+    font-size: 15px;
+    text-align: center;
+}
+.pCent{
+    display: flex;
+    flex-direction: column;
+    width: 55px;
+    height: 90%;
+    background: rgb(185, 38, 38);
+}
+.pDer{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 90%;
+    background: rgb(216, 49, 49);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.data{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 80%;
+    height: 50%;
+    background: #000;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.estadisticas{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 80%;
+    height: 15%;
+    background: rgb(47, 180, 241);
+    border-radius: 10px;
+    
+}
+.icon3{
+    display: inline-block;
+    align-self: center;
+    width: 80%;
+    height: 10%;
+    margin-top: 20px;
+}
+
+.bot1{
+    float: right;
+    width: 20%;
+    height: 30%;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin:2px;
+}
+.bot2{
+    float: right;
+    width: 20%;
+    height: 30%;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin:2px;
+}
+.bot{
+    float: left;
+    width: 20%;
+    height: 80%;
+    background: rgb(253, 251, 251);
+    border-radius: 3px;
+    margin:20px 4px 0px 0px;
+}
+.bot0{
+    float: left;
+    width: 20%;
+    height: 80%;
+    background: rgb(252, 249, 249);
+    border-radius: 3px;
+    margin:20px 0px;
+}
+.cir{
+    float: right;
+    width: 30px;
+    height: 30px;
+    background: rgb(248, 234, 31);
+    border-radius: 100%;
+    margin:2px;
+    clear:right;
+    margin: 15px 0px;
+}
+.info{
+    display: inline-block;
+    align-self: center;
+    width: 80%;
+    height: 10%;
+    margin-top: 20px;
+}
+.tipo{
+    float: left;
+    width: 45%;
+    height: 80%;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.tipo2{
+    float: right;
+    width: 45%;
+    height: 80%;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+}
